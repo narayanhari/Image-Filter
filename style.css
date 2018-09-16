@@ -1,0 +1,49 @@
+body {
+	
+	font-family: arial;
+	font-size: 16px;
+	color: #111;
+    text-align: center;
+    background: linear-gradient(to bottom right, #1111 ,#dedce8, #f9f9f9);
+}
+.head{
+    align-content: center;
+    text-align: center;
+    margin-top: 8%;
+}
+.canvasContainer{
+    text-align: center;
+}
+#canvas {
+	border: 1px solid;
+	width: 300px;
+     
+}
+.inpt{
+    display: inline-block;
+    align-items: center;
+    padding-left: 6%;
+}
+input {
+	display: block;
+	margin-top: 10px;
+}
+
+input:not([type="file"]) {
+	background: #9fadc4;
+	border-radius: 25px 25px;
+	padding: 8px 20px;
+	cursor: pointer;
+}
+
+input:not([type="file"]):hover {
+	background: #3963a8;
+}
+
+.filters input {
+	display: inline-block;
+}
+
+h2 {
+	margin-bottom: 0;
+}
